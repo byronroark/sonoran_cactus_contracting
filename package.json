@@ -1,30 +1,26 @@
 {
   "name": "sonoran_cactus_contracting",
   "version": "1.0.0",
-  "description": "sonorancactuscontracting.com",
-  "main": "index.js",
+  "description": "",
+  "main": "assets/main.scss",
+  "dependencies": {},
+  "devDependencies": {
+    "bulma": "^0.7.1",
+    "node-sass": "^4.9.3"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "css-build": "node-sass --omit-source-map-url assets/main.scss css/main.css",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/byronroark/sonoran_cactus_contracting.git"
   },
-  "author": "@byronroark",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/byronroark/sonoran_cactus_contracting/issues"
   },
-  "homepage": "https://github.com/byronroark/sonoran_cactus_contracting#readme",
-  "devDependencies": {
-    "browser-sync": "^2.24.7",
-    "gulp": "^4.0.0",
-    "gulp-sass": "^4.0.1"
-  },
-  "dependencies": {
-    "bootstrap": "^4.1.3",
-    "jquery": "^3.3.1",
-    "owl.carousel": "^2.3.4",
-    "popper.js": "^1.14.4"
-  }
+  "homepage": "https://github.com/byronroark/sonoran_cactus_contracting#readme"
 }

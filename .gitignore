@@ -1,6 +1,9 @@
 _site
+_gh_pages
 _theme_packages/*
+node_modules
 .sass-cache
 .jekyll-metadata
-.rbenv-version
 .DS_Store
+.vscode
+.tool-versions
