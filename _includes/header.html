@@ -1,22 +1,15 @@
 <nav class="navbar is-white" role="navigation" aria-label="dropdown navigation">
   <div class="navbar-brand">
     <a class="navbar-item">
-      <img src="{{ site.baseurl }}assets/images/logo.png" width="140" height="100">
+      <img src="{{ site.baseurl }}assets/images/logo.png" width="160" height="150">
     </a>
-    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+    <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
     </a>
   </div>
-  <div class="navbar-end">
-    <div class="navbar-item">
-      <div class="buttons">
-        <a class="button is-primary" href="{{ site.baseurl }}/estimate">
-          <strong>Get An Estimate</strong>
-        </a>
-      </div>
-    </div>
+  <div class="navbar-menu" id="navMenu">
     <a class="navbar-item" href="{{ site.baseurl }}/">
       Home
     </a>
@@ -24,7 +17,7 @@
         About
       </a>
     <div class="navbar-item has-dropdown is-hoverable">
-      <a class="navbar-link" href="{{ site.baseurl }}/services">
+      <a class="navbar-item" href="{{ site.baseurl }}/services">
         Services
       </a>
       <div class="navbar-dropdown is-boxed">

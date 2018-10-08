@@ -1,2 +1,24 @@
 @charset "utf-8";
 @import "../node_modules/bulma/bulma.sass";
+
+$green: #4caf50;
+
+a {
+  color: $green;
+}
+
+a.navbar-item {
+  color: $green;
+}
+
+a.navbar-item:hover {
+  color: $black;
+}
+
+a.navbar-item.has-dropdown {
+  color: $green;
+}
+
+.is-success {
+  background-color: $green;
+}

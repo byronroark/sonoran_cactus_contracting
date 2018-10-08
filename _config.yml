@@ -1,12 +1,9 @@
 title: SonoranCactusContracting.com
 email: greg@sonorancactuscontracting.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: '' # the subpath of your site, e.g. /blog
-url: 'http://sonorancactuscontracting.com' # the base hostname & protocol for your site, http://sonorancactuscontracting.com
-github_username: byronroark
+description: >-
+  Sonoran Cactus Contracting is a general remodel residential & commercial contractor that can meet all of your needs.
+baseurl: ''
+url: 'http://sonorancactuscontracting.com'
 
 # Build settings
 markdown: kramdown

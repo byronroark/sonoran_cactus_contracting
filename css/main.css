@@ -6418,3 +6418,18 @@ label.panel-block {
 .footer {
   background-color: #fafafa;
   padding: 3rem 1.5rem 6rem; }
+
+a {
+  color: #4caf50; }
+
+a.navbar-item {
+  color: #4caf50; }
+
+a.navbar-item:hover {
+  color: #0a0a0a; }
+
+a.navbar-item.has-dropdown {
+  color: #4caf50; }
+
+.is-success {
+  background-color: #4caf50; }
