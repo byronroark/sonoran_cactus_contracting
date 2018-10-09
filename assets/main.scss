@@ -3,6 +3,14 @@
 
 $green: #4caf50;
 $dark-gray: #2c3338;
+$light-gray: #EFF3F4;
+$navbar-item-img-max-height: 100px;
+$input-focus-border-color: $green;
+$input-focus-box-shadow-color: $green;
+
+// html, body {
+//   background: $light-gray;
+// }
 
 a {
   color: $green;
