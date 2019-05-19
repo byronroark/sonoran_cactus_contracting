@@ -4,7 +4,7 @@ description: >-
   Sonoran Cactus Contracting is a general remodel residential & commercial 
   contractor that can meet all of your needs.
 baseurl: ''
-url: 'https://sonorancactuscontracting.com'
+url: 'https://localhost'
 
 # Build settings
 markdown: kramdown
